@@ -1,6 +1,6 @@
 <h1>Broker Application </h1>
 
-<h2> Overview <h2>
+<h2> Overview </h2>
 
 This application has two templates which are Deemat and ShareRequest
 First template which is the Deemat template is the central party which will issue shares to the user.

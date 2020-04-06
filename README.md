@@ -29,6 +29,16 @@ daml damlc -- test --files Scenario.daml
 ```
 </br>
 
+<h2>Running Scenarios</h2>
+
+open visual studio
+Click on Scenario.daml
+Now click on:
+
+```
+Scenario results
+```
+
 
 
 

@@ -5,7 +5,7 @@ module Scenario where
 
 import Main
 
-abc = scenario do 
+test_One = scenario do 
   broker <- getParty "Broker"
   upanshu <- getParty "Upanshu"
 

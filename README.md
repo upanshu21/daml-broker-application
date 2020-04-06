@@ -18,6 +18,21 @@ To Compile the project :
 daml build
 ```
 
+<h2>Test</h2>
+
+```
+cd daml
+```
+
+```
+daml damlc -- test --files Scenario.daml
+```
+</br>
+
+
+
+
+
 
 
 

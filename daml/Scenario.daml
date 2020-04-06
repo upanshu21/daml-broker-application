@@ -31,7 +31,7 @@ abc = scenario do
 
 --user upanshu will request 5 shares from the broker
   upanshuRequestId <- submit upanshu do 
-    exercise upanshuDeematId RequestShare with requestQuantity = 5
+    exercise upanshuDeematId RequestShare with requestQuantity = 10
 
 --accepting user request
   (issuerDeematId, upanshusDeematId) <- submit broker do 
@@ -39,8 +39,8 @@ abc = scenario do
 
 --upanshu recieved 5 shares of Reliance as requested
   upanshuAccount <- submit upanshu do fetch upanshusDeematId 
-  assert(upanshuAccount.amount == 5)
+  assert(upanshuAccount.amount == 10)
 
 --the broker now has 995 shares left
   issuerDeemat <- submit broker do fetch issuerDeematId 
-  assert(issuerDeemat.amount == 995)
+  assert(issuerDeemat.amount == 990)

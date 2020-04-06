@@ -31,8 +31,8 @@ daml damlc -- test --files Scenario.daml
 
 <h2>Running Scenarios</h2>
 
-open visual studio
-Click on Scenario.daml
+open visual studio</br>
+Click on Scenario.daml</br>
 Now click on:
 
 ```

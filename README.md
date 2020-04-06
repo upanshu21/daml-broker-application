@@ -38,6 +38,14 @@ Now click on:
 ```
 Scenario results
 ```
+</br>
+
+<h2>Scenario Covered</h2>
+
+1. Authorization of user. </br>
+2. User requesting share quantity. </br>
+3. Accepting user request. </br>
+4. Checking by Asserting expecting User account balance to Broker account balance.</br>
 
 
 
